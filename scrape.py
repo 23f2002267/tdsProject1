@@ -89,7 +89,7 @@ for topic_id, topic_slug in filtered_topics:
         # ---- DUMMY IMAGE DESCRIBER ----
         def describe_image_via_llm(image_url: str) -> str:
 
-            genai.configure(api_key="AIzaSyAP7GpqgjaawrXhCOfFyjdGThnNKTa3aCc")
+            genai.configure(api_key="API_KEY_HERE")  # Replace with your actual API key
 
             try:
                 # Download image
